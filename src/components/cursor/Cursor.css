@@ -1,0 +1,146 @@
+.appDiv {
+    width: 100%;
+    background-color: white;
+  }
+  
+  .circle {
+    height: 18px;
+    width: 18px;
+    border-radius: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    background-color: white;
+    z-index: 1;
+  }
+  
+  .circle2 {
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    mix-blend-mode: difference;
+    background-color: white;
+    transform: translate(-50%, -50%);
+    transform: scale(1);
+  }
+  
+  .project-circle {
+    width: 6.5rem;
+    height: 6.5rem;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none;
+    color: black;
+    font-size: 2rem;
+    margin-top: -2rem;
+    margin-left: -2.5rem;
+    z-index: 99999;
+    scale: 0;
+  }
+  
+  .project-circle p {
+    margin-top: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .go-live-circle p {
+    line-height: 1.3rem;
+    padding-left: 1rem;
+  }
+  
+  @media screen and (max-width:769px) {
+    .project-circle {
+      display: none;
+    }
+  
+    .circle,
+    .circle2 {
+      display: none !important;
+    }
+  }
+  
+  .up-btn {
+    border: 1px solid red;
+    width: 4rem;
+    height: 4rem;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    top: 86%;
+    right: 3%;
+    background: rgba(255, 255, 255, 0.439);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 100%;
+    opacity: 0;
+    animation: bounce 2s cubic-bezier(.25, .1, .25, 1) infinite;
+  }
+  
+  .up-btn svg {
+    color: white;
+    font-size: 3rem;
+  }
+  
+  @keyframes bounce {
+  
+    0%,
+    9%,
+    18% {
+      transform: translateY(0);
+    }
+  
+    2% {
+      transform: translateY(-10px);
+    }
+  
+    3% {
+      transform: translateY(-3px);
+    }
+  
+    5% {
+      transform: translateY(-8px);
+    }
+  
+    7% {
+      transform: translateY(-2px);
+    }
+  
+    11% {
+      transform: translateY(-10px);
+    }
+  
+    12% {
+      transform: translateY(-3px);
+    }
+  
+    14% {
+      transform: translateY(-8px);
+    }
+  
+    16% {
+      transform: translateY(-2px);
+    }
+  }
+  
+  @media screen and (max-width:391px) {
+    .up-btn {
+      width: 3.5rem;
+      height: 3.5rem;
+    }
+  }
