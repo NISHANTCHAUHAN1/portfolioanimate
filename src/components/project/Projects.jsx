@@ -21,19 +21,6 @@ export function Projects() {
       "https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Database/mongodb-original-wordmark.svg",
     ]
   },
-  {
-    id:2,
-    title:"Instagram",
-    thumbnail: insta,
-     Githublink:"https://github.com/NISHANTCHAUHAN1/socialMedia",
-    Demolink:"https://socialmedia-kcjq.onrender.com/",
-  tech: [
-    "https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Frontend/react-original-wordmark.svg",
-    "https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Backend/nodejs-original-wordmark.svg",
-    "https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Backend/express-original-wordmark.svg",
-    "https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Database/mongodb-original-wordmark.svg",
-  ]
-},
     {
         id:3,
         title:"Ecom Web",
