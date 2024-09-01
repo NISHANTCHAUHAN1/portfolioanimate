@@ -42,8 +42,9 @@ const ProfileSection = () => {
           </button>
         </div>
         <div id="socials-container">
-        <FaLinkedin onClick={handleLinkedInClick} className='text-white object-cover w-16 h-10'/>
-        <FaGithub onClick={handleGithubClick} className='text-white object-cover w-16 h-10'/>
+
+        <FaLinkedin onClick={handleLinkedInClick} className='text-white object-cover w-16 h-10  hover:text-blue-600'/>
+        <FaGithub onClick={handleGithubClick} className='text-white object-cover w-16 h-10 hover:text-gray-500'/>
       
         </div>
       </div>
