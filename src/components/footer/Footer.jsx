@@ -24,8 +24,7 @@ const SocialIcons = () => {
         <h1 className="text-3xl font-extrabold py-2">
           Thanks for checking my website!
         </h1>
-        {/* <p className='text-2xl font-extrabold'>get in touch (Click to copy)</p> */}
-        <p className=" text-xl font-extrabold">nishchaynish8gmail.com</p>
+          <a href="mailto: nishchaynish8@email.com" className=" text-xl font-extrabold hover:text-blue-200" target='_blank'><p>nishchaynish8@gmail.com</p></a>
       </div>
       <ul className="wrapper">
         <li className="icon facebook" onClick={handleLinkedInClick}>
