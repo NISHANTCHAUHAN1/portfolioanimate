@@ -5,7 +5,7 @@ import nish from '../../assets/portfolio-img3.webp';
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
 
-import pdf from "../../assets/NishResume.pdf";
+import pdf from "../../assets/resume.pdf";
 const ProfileSection = () => {
   const handleResumeClick = () => {
     window.open(pdf);
