@@ -5,6 +5,7 @@ import { CardHoverEffectDemo } from "./components/skills/CardHoverEffectDemo";
 import { Projects } from "./components/project/Projects";
 import Footer from "./components/footer/Footer";
 import { cursorJs } from "./components/cursor/cursorJs";
+
 import { useEffect } from "react";
 
 function App() {
