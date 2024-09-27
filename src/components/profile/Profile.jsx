@@ -1,6 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
 import "./profile.css"
-// import nish from '../../assets/web-img.png'
 import nish from '../../assets/portfolio-img3.webp';
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
