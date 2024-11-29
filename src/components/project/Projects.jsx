@@ -2,7 +2,6 @@ import { ProjectCard } from "./ProjectCard";
 import ecom from "../../assets/ecom.png"
 import blogweb from "../../assets/blogweb.png"
 import todo from "../../assets/todo.png";
-// import pinao from "../../assets/pinao.png";
 import pinterest from '../../assets/pinterest.png';
 import ide from '../../assets/ide.png'
 import LPF from '../../assets/i.png'
