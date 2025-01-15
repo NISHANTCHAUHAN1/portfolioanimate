@@ -6,6 +6,7 @@ import pinterest from '../../assets/pinterest.png';
 import ide from '../../assets/ide.png'
 import LPF from '../../assets/i.png'
 
+
 export function Projects() {
   const cards = [
     {
